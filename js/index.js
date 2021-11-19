@@ -1,13 +1,13 @@
 
-$("#navProject").on("click", function() {
-    $("#dropDownProject").slideToggle();
+$("#navProject").on("click", function(){
+    $('#dropDownProject').slideToggle();
   });
 
-$("#navResume").on("click", function() {
+$("#navResume").on("click", function(){
     $("#dropDownResume").slideToggle();
   });
 
+$("li").hover(function(){
+  $(this).css("color","#A4905C");
 });
 
-
-$("li").css("color","#A4905C");
